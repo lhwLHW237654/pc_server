@@ -1,0 +1,39 @@
+const { ChatOpenAI } = require("@langchain/openai");
+
+const arrayList = [
+  "欢迎大家加入我们的直播间，非常感谢大家对我们老板娘的喜欢。",
+  "没有点关注的小伙伴左上角点点关注，现在是北京时间晚上8点30。",
+  "有没有没吃过我们店特色羊肉的小伙伴。",
+  "没有的飘个一。",
+  "我看看有多少个小伙伴没有吃过咱们家的羊肉粉啊",
+  "还是有蛮多的哈，没关系。",
+  "没有吃过的，欢迎大家来店品尝，价格绝对实惠，食材保证新鲜，都是现做现卖的。",
+  "视频中大家看到粉上铺满了羊肉，都是咱们来店实打实的量，不存在视频效果啊",
+  "吃过，来过咱们店的哥姐可以在线说说自己的真实感受哈。",
+  "也可以给小店提提意见",
+  "视频中的这个美女就是咱们店的老板娘。",
+  "老板娘都在这儿，小伙伴有什么建议都可以提一提的。",
+  "对，纸巾矿泉水都是免费的。",
+  "我看到有个小伙伴说辣椒辣不辣。",
+];
+
+async function test() {
+  const chatOpenAI = new ChatOpenAI(
+    {
+      openAIApiKey: "sk-wfXQSRRvXRhZnjrA523a839100134f76A4D070E0Ab69D2F0",
+      modelName: "gpt-4o",
+      temperature: 0.2,
+    },
+    {
+      baseURL: "https://api2.aigcbest.top/v1",
+    }
+  );
+
+  const stream = await chatOpenAI.stream("1+1=?");
+
+  for await (const chunk of stream) {
+    console.log("%c Line:194 🥐 chunk", "background:#e41a6a", chunk.content);
+  }
+}
+
+test();

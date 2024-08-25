@@ -1,0 +1,66 @@
+{"level":20,"time":1724160356256,"pid":6692,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724160356265,"pid":6692,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724160356265,"pid":6692,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724160356284,"pid":6692,"hostname":"DESKTOP-QMF3SC7","msg":"[Serve][API]:\"服务启动成功 8765\""}
+{"level":30,"time":1724161889513,"pid":6692,"hostname":"DESKTOP-QMF3SC7","reqId":"42e0ef49-a076-4c9d-9243-25ce661d8b50","req":{"id":"42e0ef49-a076-4c9d-9243-25ce661d8b50","method":"GET","url":"/other/getCaptcha","query":{},"params":{},"headers":{"host":"127.0.0.1:8765","connection":"keep-alive","sec-ch-ua":"\"Not)A;Brand\";v=\"99\", \"Microsoft Edge\";v=\"127\", \"Chromium\";v=\"127\"","accept":"application/json, text/plain, */*","sec-ch-ua-mobile":"?0","authorization":"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0","sec-ch-ua-platform":"\"Windows\"","origin":"http://localhost:4000","sec-fetch-site":"cross-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:4000/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6","if-none-match":"W/\"12da-NaOPzh4IWnk+FEKPDYnukPtgo9E\""},"remoteAddress":"::ffff:127.0.0.1","remotePort":49915,"body":{}},"res":{"statusCode":200,"headers":{"x-powered-by":"Express","access-control-allow-origin":"*","content-type":"application/json; charset=utf-8","content-length":"4829","etag":"W/\"12dd-ZsAt7oQdFCSK3m3vO6vtyIEJ0Zk\""}},"responseTime":6,"msg":"request completed"}
+{"level":10,"time":1724161890337,"pid":6692,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"select `id`, `name`, `user_name`, `password` from `cp_admin` where `user_name` = ? limit ?[参数]:[\\\"admin\\\",1]\""}
+{"level":30,"time":1724161890340,"pid":6692,"hostname":"DESKTOP-QMF3SC7","reqId":"597651c8-ced6-40c4-a951-79ad21975ae4","req":{"id":"597651c8-ced6-40c4-a951-79ad21975ae4","method":"POST","url":"/user/login","query":{},"params":{},"headers":{"host":"127.0.0.1:8765","connection":"keep-alive","content-length":"107","sec-ch-ua":"\"Not)A;Brand\";v=\"99\", \"Microsoft Edge\";v=\"127\", \"Chromium\";v=\"127\"","accept":"application/json, text/plain, */*","sec-ch-ua-platform":"\"Windows\"","sec-ch-ua-mobile":"?0","authorization":"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0","content-type":"application/json","origin":"http://localhost:4000","sec-fetch-site":"cross-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:4000/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6"},"remoteAddress":"::ffff:127.0.0.1","remotePort":49915,"body":{"username":"admin","password":"123456","captcha":"2","originalCaptcha":"083b5e23c55bef7c1b6078c586ce2633"}},"res":{"statusCode":200,"headers":{"x-powered-by":"Express","access-control-allow-origin":"*","content-type":"application/json; charset=utf-8","content-length":"295","etag":"W/\"127-wa099qiZOp11UIwRXtrpksE+G9o\""}},"responseTime":8,"msg":"request completed"}
+{"level":20,"time":1724167950473,"pid":5792,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724167950481,"pid":5792,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724167950481,"pid":5792,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724168058728,"pid":19484,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724168058736,"pid":19484,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724168058737,"pid":19484,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724168064534,"pid":3484,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724168064542,"pid":3484,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724168064542,"pid":3484,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724168074501,"pid":24072,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724168074510,"pid":24072,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724168074510,"pid":24072,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724168080787,"pid":19344,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724168080795,"pid":19344,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724168080795,"pid":19344,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724168120011,"pid":21524,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724168120020,"pid":21524,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724168120020,"pid":21524,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724168146421,"pid":19616,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724168146429,"pid":19616,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724168146429,"pid":19616,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724168170512,"pid":23768,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724168170520,"pid":23768,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724168170520,"pid":23768,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724168178049,"pid":3344,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724168178058,"pid":3344,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724168178058,"pid":3344,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724168208596,"pid":24432,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724168208605,"pid":24432,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724168208605,"pid":24432,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724168214753,"pid":196,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724168214762,"pid":196,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724168214762,"pid":196,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724168236753,"pid":5424,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724168236761,"pid":5424,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724168236761,"pid":5424,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724168244688,"pid":4124,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724168244696,"pid":4124,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724168244696,"pid":4124,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724168344816,"pid":14972,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724168344824,"pid":14972,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724168344824,"pid":14972,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724168344908,"pid":14972,"hostname":"DESKTOP-QMF3SC7","msg":"[Serve][API]:\"服务启动成功 8765\""}
+{"level":20,"time":1724168736040,"pid":13868,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724168736048,"pid":13868,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724168736048,"pid":13868,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724168736072,"pid":13868,"hostname":"DESKTOP-QMF3SC7","msg":"[Serve][API]:\"服务启动成功 8765\""}
+{"level":20,"time":1724169076509,"pid":12224,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724169076517,"pid":12224,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724169076517,"pid":12224,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724169076603,"pid":12224,"hostname":"DESKTOP-QMF3SC7","msg":"[Serve][API]:\"服务启动成功 8765\""}
+{"level":20,"time":1724169082162,"pid":13340,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724169082170,"pid":13340,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724169082171,"pid":13340,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724169082259,"pid":13340,"hostname":"DESKTOP-QMF3SC7","msg":"[Serve][API]:\"服务启动成功 8765\""}
+{"level":20,"time":1724169088108,"pid":18524,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724169088117,"pid":18524,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724169088117,"pid":18524,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724169088140,"pid":18524,"hostname":"DESKTOP-QMF3SC7","msg":"[Serve][API]:\"服务启动成功 8765\""}

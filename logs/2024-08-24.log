@@ -1,0 +1,10 @@
+{"level":20,"time":1724485971021,"pid":23152,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724485971029,"pid":23152,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724485971029,"pid":23152,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724485991583,"pid":14688,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724485991589,"pid":14688,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724485991589,"pid":14688,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724486084631,"pid":16020,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Redis]:\"连接成功\""}
+{"level":10,"time":1724486084640,"pid":16020,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SELECT 1\""}
+{"level":20,"time":1724486084640,"pid":16020,"hostname":"DESKTOP-QMF3SC7","msg":"[DB][Knex]:\"SQL连接成功，缓存模式：REDIS\""}
+{"level":20,"time":1724486084714,"pid":16020,"hostname":"DESKTOP-QMF3SC7","msg":"[Serve][API]:\"服务启动成功 8765\""}

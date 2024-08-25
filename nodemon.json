@@ -1,0 +1,7 @@
+{
+  "ignore": ["logs/*", "app/*", "dist", "backup", "test", "uploads", "temp"],
+  "events": {
+    "restart": "cls"
+  },
+  "delay": 100
+}

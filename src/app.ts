@@ -32,7 +32,7 @@ app.use(
 );
 app.use(express.json({ limit: "50mb" })); //格式化为json
 app.use(express.urlencoded({ extended: false })); //格式化为url编码
-app.use("public", express.static("public")); //静态资源
+app.use("/public", express.static("public")); //静态资源
 app.use(httpLogger); //日志记录
 
 app.use((req: Request, res: Response, next: NextFunction) => supports(req, res, next)); //规范响应请求头

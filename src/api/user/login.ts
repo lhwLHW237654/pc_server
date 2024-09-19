@@ -20,7 +20,6 @@ export default (router: R, u: U) => {
           username: data.username,
           name: data.name,
         });
-
         res.success({ token: token, name: data.name }, "登录成功");
       } else {
         res.error("用户名或密码错误");
